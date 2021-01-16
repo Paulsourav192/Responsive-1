@@ -1,0 +1,737 @@
+
+body{font-family: 'Courier New', Courier, monospace;
+margin: 0;
+padding: 0;
+
+}
+
+.clearfix::after{  content: "";
+    display: block;
+    clear: both;
+
+}
+
+
+.banner-box{   /* Start: banner-box */
+
+width: 100%;
+/*  height: 920px; */
+/*height: 110vh;  /* is tarikse value likhne ka matlab ye hai height na dekar ye dete hai isse background full screen ko cover krta hai
+
+         and Vh ka full form hota hai (view port height) and humesha background image kai lagana hai to height na use kark ye propety value use karna chaiye*/
+
+background-image: url("../img/banner.png");
+height: 100%;
+background-size: cover;
+background-position: center top;
+}
+
+.nav-area-box{   /* Start: nav-area-box */
+
+/*  height: 150px; */
+width: 100%;
+/*     background-color: cyan;   */
+
+
+}
+
+.left-box  {
+
+padding-top: 25px;
+padding-left: 20px;
+
+
+}
+.left-box .stile{ 
+
+ font-size: 20px;
+ color: steelblue;
+ font-family: 'Courier New', Courier, monospace;
+
+
+ 
+}
+
+.left-box p{
+
+   font-size: 20px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+  
+   
+ 
+}    /* Close: left-box */
+
+.right-box{  /* Start: right-box */
+
+text-align: right;
+margin-top: -43px;
+     
+}
+
+
+.right-box .fa-navicon{
+
+       color: white;
+       font-size: 22px;  
+                                        
+}
+
+.right-box p{
+
+   color: white;
+   font-size: 22px;  
+   font-family: 'Courier New', Courier, monospace;                
+   margin-right: 25px;
+                               
+} 
+
+.right-box a{
+
+   text-decoration: none; 
+
+}
+
+/* Close: right-box */
+
+
+/* Close: nav-area-box */
+
+
+.banner-box2 {   /* Start: banner-box2  */
+
+text-align: center;
+ /*  background-color: brown;  */
+margin-top: 200px; 
+}
+
+
+.banner-box2 h1{
+
+ font-size: 35px;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+        
+}
+
+.banner-box2 p{
+
+font-size: 20px;
+font-weight: lighter;
+font-family: 'Courier New', Courier, monospace;
+color: white;
+
+}
+
+
+.banner-box2 button{
+
+     height: 40px;
+     width: 115px;
+     background-color: steelblue;
+     color: white;
+     font-size: 14px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+     border: 0px;
+     border-radius: 3px;
+     margin-top: 17px;
+     
+
+}    /* Close: banner-box2  */
+
+/*  Close: banner-box */
+
+
+.content-box-1{   /* Start: content-box-1 */
+
+    /*   height: 400px;  */
+      width: 71%;   
+    /*   background-color: pink;   */
+       margin: 0 auto;
+       padding-bottom: 91px;
+       padding-top: 80px;
+       
+       
+     
+}
+
+.content-box-1 .leftt-box{
+
+    float: left;
+    width: 35%;  
+ /*   background-color: blue; */
+    
+}
+
+
+.leftt-box img{
+
+                border-radius: 50%;
+              /*  margin-top: 15px;  */
+             /*   margin-left: 1%; */
+                width: 100%; 
+                                                  
+}
+
+.content-box-1 .rightt-box{
+
+   float: right; 
+   width: 58%;
+ /*  background-color: orange; */
+   margin-right: 3%;
+   margin-top: -5px;
+  
+}
+
+.content-box-1 .rightt-box h2{
+
+           font-size: 25px;
+           font-weight: bold;                       
+           font-family: 'Courier New', Courier, monospace;
+                    
+}                         
+
+.content-box-1 .rightt-box p{
+
+         font-size: 16px;
+         font-weight: lighter;  
+         color: gray;                     
+         font-family: 'Courier New', Courier, monospace;                    
+         line-height: 27px;
+      
+}
+
+
+.content-box-1 .rightt-box button{
+
+                height: 32px; 
+                width: 18%;  
+                background-color: steelblue;
+                color: white;
+                font-size: 12px;
+                font-weight: lighter;
+                border-radius: 5px;
+                border: 0px;
+                          
+} 
+
+/* Close: content-box-1  */
+
+
+.third-part-fullwidth-box{   /*  Start: third-part-fullwidth-box */
+
+   background-color: steelblue;            
+/*   height: 500px;    */          
+   width: 100%;   
+ /*  margin-top: 50px; */
+  padding-top: 55px; 
+   padding-bottom: 60px;      
+
+}
+
+
+.content-box-2{  /*  Start: content-box-2 */
+
+ /* background-color: coral;  */
+width: 71%;           
+margin: 0 auto;
+/*  padding-bottom: -30px;  */
+
+}
+
+
+
+.content-box-2 .lefttt-box{
+
+/* background-color: cyan;  */
+float: left;
+width: 58%;
+
+}
+
+.content-box-2 .lefttt-box h2{
+
+font-size: 25px;
+font-weight: bold;                       
+font-family: 'Courier New', Courier, monospace;                        
+color: white;   
+margin-left: 1%;
+
+}                         
+
+.content-box-2 .lefttt-box p{
+
+font-size: 16px;
+font-weight: lighter;  
+color: white;                     
+font-family: 'Courier New', Courier, monospace;
+line-height: 22px;
+margin-left: 1%;
+
+}
+
+.content-box-2 .lefttt-box button{
+
+height: 32px; 
+width: 18%;   
+ background-color: white;
+ color: steelblue;
+ font-size: 12px;
+ font-weight: lighter;
+ border-radius: 5px;
+ border: 0px;
+ margin-top: 28px;
+ margin-left: 1%;
+ 
+}
+
+
+.content-box-2 .righttt-box{
+
+   float: right;
+   width: 35%;  
+ /*  background-color: yellow; */
+   
+}
+
+.content-box-2 .righttt-box img{
+
+   border-radius: 50%;
+   width: 100%; 
+   
+   }
+   
+
+/* Close: content-box-2  */
+
+
+/* Close: third-part-fullwidth-box  */
+
+
+
+.last-part-box{  /* Start: Last-part-box */
+           
+     /*  background-color: pink;  */
+     /*  width: 1040px; */
+     width: 73%;
+    /*   height: 610px;  */
+       margin: 0 auto;
+       padding-bottom: 45px;
+
+}
+
+
+.last-part-box h1{
+
+           font-size: 27px;
+           font-family: 'Courier New', Courier, monospace;
+           font-weight: bold;
+           text-align: center;
+           position: relative;
+           top: 55px;
+
+}
+
+.last-part-box p{
+
+         font-size: 16px;
+         color: gray;
+         font-family: 'Courier New', Courier, monospace; 
+         text-align: center;
+         margin-top: 75px;
+
+}
+
+
+.box-1 {   /* Start: box-1 */
+
+/* height: 500px; */
+/*width: 320px; */
+width: 31%; 
+
+ /* background-color: orange; */ 
+margin-top: 25px;
+float: left;
+
+}
+
+.box-1 img{
+
+      border-radius: 50%; 
+      width: 100%;
+                     
+ 
+}
+
+.box-1 p{
+
+ font-size: 15px;
+ font-weight: lighter;
+ color: gray;
+ margin-top: 30px;
+ /*width: 337px;*/
+ text-align: center;
+       
+                   
+}
+
+.box-1 button{
+
+        height: 40px; 
+      /*  width: 115px;*/
+      width: 35%; 
+ 
+        background-color: steelblue;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+        border: 0px;
+      /*  border-radius: 3px; */
+      border-radius: 5%;
+        margin-top: 15px;
+      /*  margin-left: 100px; */
+      margin-left: 31%;
+
+}   /* Close: box-1 */
+
+
+
+.box-2 {   /* Start: box-2 */
+
+/* height: 500px; */
+width: 31%; 
+ /* background-color: coral;  */
+float: left;
+margin-left: 3.5%;
+margin-top: 25px;
+
+
+}
+
+.box-2 img{
+
+   border-radius: 50%; 
+   width: 100%;                  
+  
+}
+
+.box-2 p{
+
+ font-size: 15px;
+ font-weight: lighter;
+ color: gray;
+ margin-top: 30px;             
+/* width: 337px; */
+ font-family: 'Courier New', Courier, monospace;            
+ text-align: center;
+      
+}
+
+.box-2 button{
+
+        height: 40px;
+        width: 35%;
+        background-color: steelblue;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+        border: 0px;
+        border-radius: 5%;
+        margin-top: 15px;
+        margin-left: 31%;
+
+}   /* Close: box-2 */
+
+
+
+.box-3 {   /* Start: box-3 */
+
+/* height: 500px; */
+width: 31%; 
+
+ /* background-color: khaki;  */
+float: right;
+margin-top: 25px;
+
+}
+
+.box-3 img{
+
+   border-radius: 50%; 
+   width: 100%;                   
+  
+}
+
+
+.box-3 p{
+
+ font-size: 15px;
+ font-weight: lighter;
+ color: gray;
+ margin-top: 30px;             
+ /*width: 337px;*/
+ text-align: center;
+ font-family: 'Courier New', Courier, monospace; 
+                 
+}
+.box-3 button{
+
+        height: 40px;
+        width: 35%;
+        background-color: steelblue;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+        border: 0px;
+        border-radius: 5%;
+        margin-top: 15px;
+        margin-left: 31%;
+
+}   /* Close: box-3 */
+
+/*  Close: Last-part-box */
+
+.footer-area-box{    /* Start: footer-area-box */
+
+   margin: 0 auto;
+ /*  background-color: firebrick;  */
+ /*  height: 190px;  */
+   width: 600px; 
+   width: 73%;
+   margin-top: 50px;
+   padding-bottom: 50px;  
+   
+}
+
+
+.socialbox {    
+
+word-spacing: 23px;     
+font-size: 22px;
+color: gray;
+text-align: center; 
+
+}   
+
+.footer-area-box h6{
+
+      color: gray;
+      font-size: 15px;
+      font-family: sans-serif;  
+      text-align: center; 
+      margin-top: 25px;  
+      font-weight: lighter;              
+
+}  
+
+.footer-area-box .stile-1{
+
+            color: gray;
+            font-weight: bold;
+
+}
+
+.footer-area-box .stile-2{
+
+            color: gray;
+            font-weight: bold;
+
+}
+
+.footer-area-box .fa-facebook-official{
+
+                          height: 25px;
+                          width: 25px;
+                          border-radius: 40px;
+                          border: 2px solid orange; 
+                          text-decoration: none;
+                          color: green;
+                          
+} 
+
+.socialbox .linkk-1{
+
+      text-decoration: none;
+
+}
+
+
+.footer-area-box .fa-instagram{
+
+                  height: 25px;
+                  width: 25px;
+                  border-radius: 40px;
+                  border: 2px solid green;  
+                  color: orange;
+
+} 
+
+.socialbox .linkk-2{
+
+      text-decoration: none;
+
+}
+
+
+.footer-area-box .fa-twitter-square{
+
+                      height: 25px;
+                      width: 25px;
+                      border-radius: 40px;
+                      border: 2px solid orange;  
+                      color: green;
+
+} 
+
+.socialbox .linkk-4{
+
+       text-decoration: none;
+
+}
+.footer-area-box .fa-telegram{
+
+                 height: 25px;
+                 width: 25px;
+                 border-radius: 40px;
+                 border: 2px solid green;  
+                 color: orange;
+
+} 
+
+.socialbox .linkk-3{
+
+      text-decoration: none;
+
+}
+
+
+/* Close: footer-area-box */
+
+
+/* Close:  nav-fullwidth-box */ 
+
+
+
+/* 1st Media Query Start: */
+
+
+@media only screen and (max-width:1182px){
+   
+
+   .leftt-box img{
+
+  width:200%;
+ clear: both; 
+ margin-left: 44%; 
+
+
+   }
+/*
+   .leftt-box{
+
+      width:100%;
+      clear: both; 
+      margin-left:33%;
+      
+   }*/
+
+   .content-box-2 .lefttt-box{
+
+      width: 100%; 
+      text-align: center;
+       margin: 0 auto; 
+       clear: both;
+
+   }
+
+
+
+   .content-box-1 .rightt-box{
+
+      width: 100%; 
+     text-align: center;
+     margin: 0 auto; 
+      clear: both;
+
+   }
+
+
+.content-box-2 .righttt-box img{
+
+      width: 200%;
+      clear: both;
+      margin-top: 28px;
+      margin-left: -144%;
+      
+}
+
+
+}
+
+@media only screen and (max-width:750px){
+
+
+   .last-part-box .box-1{
+
+      width: 75%;
+      clear: both; 
+      
+     /* background-color: hotpink; */
+      margin-left: 12%;
+      line-height: 26px;
+
+}
+
+.last-part-box .box-2{
+
+   width: 75%;
+   clear: both; 
+   
+ /*  background-color: hotpink; */
+   margin-left: 12%;
+   line-height: 26px;
+
+}
+
+.last-part-box .box-3{
+
+   width: 75%;
+   clear: both; 
+   line-height: 26px;
+ 
+   
+/*   background-color: hotpink;  */
+   margin-right: 13%;
+   line-height: 26px;
+}
+
+.footer-area-box{
+
+    width: 50%;
+    
+
+
+}
+
+.socialbox{
+
+   word-spacing: 15px;
+   
+
+}
+
+.footer-area-box h6{
+
+      width: 59%;
+      
+      margin: 0 auto;
+      margin-top: 20px;
+      line-height: 26px;
+
+}
+
+
+}
+
